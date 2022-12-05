@@ -5,7 +5,7 @@ Here's our first attempt at using data to create a table:
 
 import streamlit as st
 import pandas as pd
-st.markdown('Streamlit is **_really_ cool**.')
+st.title('Streamlit is **_really_ cool**.')
 df = pd.DataFrame({
   'first column': [1, 2, 3, 4],
   'second column': [10, 20, 30, 40]
